@@ -1,0 +1,45 @@
+.loginbox {
+  background: url(../../assets/image/login_bg1.png) no-repeat;
+  background-size: 100% 100%;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+.loginbox::before {
+  content: "";
+  background: url(../../assets/image/login_bg2.png) no-repeat;
+  background-size: 100% 100%;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  z-index: 1;
+}
+.loginbox::after {
+  content: "";
+  background: url(../../assets/image/login_bg3.png) no-repeat;
+  background-size: 100% 100%;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  z-index: 1;
+}
+
+.login {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 975px;
+  z-index: 10;
+}
+.logintitle {
+  width: 975px;
+  height: 105px;
+  background: url(../../assets/image/login_bg4.png) no-repeat;
+  background-size: 100% 100%;
+  text-align: center;
+  font-size: 35px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+}
